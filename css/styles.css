@@ -1,0 +1,98 @@
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  background-color: #e0e8ff;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #7280a7;
+  text-decoration: none;
+  ;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+h1 {
+  font-weight: 900;
+  color: #1f2f56;
+  margin-bottom: 10px;
+}
+h3 {
+  margin: 0 auto 3px auto;
+  font-size: 1rem;
+  padding: 0;
+  color: #1f2f56;
+  display: inline-block;
+  font-weight: 900;
+}
+a:link, a:active, a:visited {
+  color: #382AE1;
+  font-weight: bold;
+}
+a:hover {
+  color: black;
+}
+/**************CLASSES START HERE*************************************/
+.main {
+  background-color: white;
+  width: 450px;
+  margin: 50px auto 50px auto;
+  border-radius: 20px;
+  padding: 0 0 50px 0;
+}
+.top-image {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.order-text {
+  margin: 40px auto 10px auto;
+  padding: 0 15% 0 15%;
+}
+.order-summary {
+  background-color: #F8F9FE;
+  border-radius: 12px;
+  width: 320px;
+  margin: 20px auto 20px auto;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price {
+  text-align: left;
+  padding: 10px;
+  margin: 0;
+}
+.music-img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.change {
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+.payment:link, .payment:active, .payment:visited {
+  background-color: #382AE1;
+  border-radius: 12px;
+  width: 320px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  padding: 10px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+.payment:hover {
+  background-color: black;
+}
+.cancel:link, .cancel:active, .cancel:visited {
+  color: #7280a7;
+  text-decoration: none;
+}
+.cancel:hover {
+  color: #382AE1;
+}
