@@ -114,7 +114,6 @@ a:hover {
 @media (max-width:1080px) {
   body {
     background-image: url('../images/pattern-background-mobile.svg');
-    height: 100%;
   }
 
   .main {
