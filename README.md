@@ -38,3 +38,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 
+UPDATE 8/13/21:
+Upgraded to mobile web design using media query & added the drop shadow
+
